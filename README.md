@@ -21,9 +21,9 @@ You can specify your redis connection data with environment variables:
 ## How to run it
 1. Go build
 ```bash
-    go build
+    go install github.com/tbuchaillot/redis-random-data
 ```
 2. Run
 ```bash
-    ./redis-random-data
+    redis-random-data -c 100 -p "record"
 ```
